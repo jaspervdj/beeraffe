@@ -1,0 +1,21 @@
+{
+  "name": "beeraffe",
+  "set": "psc-0.12.2",
+  "source": "https://github.com/purescript/package-sets.git",
+  "depends": [
+    "aff",
+    "affjax",
+    "console",
+    "halogen",
+    "prelude",
+    "pux",
+    "random",
+    "react",
+    "react-basic",
+    "react-dom",
+    "tailrec",
+    "web-events",
+    "web-html",
+    "web-uievents"
+  ]
+}

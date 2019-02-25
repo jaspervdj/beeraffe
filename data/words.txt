@@ -1,0 +1,305 @@
+abacus
+airplane
+alien: extraterrestrial-alien
+ambulance
+anchor
+ant
+apple: red-apple
+avocado
+baby
+backpack: school-satchel
+bacon
+badger
+bagel
+baguette: baguette-bread
+balloon
+banana
+baseball
+basket
+bat
+bathtub
+battery
+bed
+beer: beer-mug
+bell
+bento: bento-box
+bicycle
+bikini
+bird
+blowfish
+boar
+bomb
+bone
+book: blue-book
+bouquet
+boy
+brain
+bread
+broccoli
+broom
+bug
+burrito
+bus
+butterfly
+cactus
+calendar
+camel: bactrian-camel
+camera
+can: canned-food
+candle
+candy
+canoe
+cap: billed-cap
+car: automobile
+carrot
+castle: japanese-castle
+cat
+champagne: bottle-with-popping-cork
+cheese: cheese-wedge
+cherries
+chestnut
+chicken
+chipmunk
+chocolate: chocolate-bar
+cigarette: smoking-symbol
+circus: circus-tent
+clipboard
+cloud
+coat
+coconut
+coffin
+comet
+compass
+computer: personal-computer
+cookie
+corn: ear-of-maize
+cow
+crab
+crayon: lower-left-crayon
+cricket
+crocodile
+croissant
+crown
+cucumber
+cupcake
+curry: curry-and-rice
+custard
+dango
+deer
+die: game-die
+dna: dna-double-helix
+dog
+dolphin
+door
+doughnut
+dove: dove-of-peace
+dragon
+dress
+drum: drum-with-drumsticks
+duck
+dumpling
+dvd
+eagle
+ear
+egg
+eggplant: aubergine
+elephant
+envelope
+eye
+factory
+family
+fencer
+fire
+firecracker
+fish
+flashlight: electric-torch
+floppy: floppy-disk
+foot
+football: american-football
+fountain
+fries: french-fries
+gear
+ghost
+giraffe: giraffe-face
+girl
+glasses: eyeglasses
+gloves
+goat
+goblin: japanese-goblin
+gorilla
+grandma: older-woman
+grandpa: older-man
+grapes
+guitar
+hamburger
+hammer
+handbag
+hat: top-hat
+headphone
+hedgehog
+helicopter
+herb
+hibiscus
+hippopotamus
+honey: honey-pot
+honeybee
+horse
+hospital
+hotel
+jeans
+jigsaw: jigsaw-puzzle-piece
+joystick
+kangaroo
+key
+keyboard
+kimono
+kiwi: kiwifruit
+koala
+lantern: izakaya-lantern
+lemon
+leopard
+light: electric-light-bulb
+lizard
+llama
+lobster
+locomotive: steam-locomotive
+lollipop
+luggage
+magnet
+man
+mango
+meat: cut-of-meat
+melon
+microbe
+microscope
+milk: glass-of-milk
+moai: moyai
+money: money-bag
+monkey
+moon: full-moon-with-face
+mosquito
+motorcycle: racing-motorcycle
+mountain
+mouse
+newspaper
+nose
+notebook
+octopus
+oden
+ogre: japanese-ogre
+owl
+ox
+pager
+paintbrush: lower-left-paintbrush
+pancakes
+paperclip
+parrot
+peach
+peacock
+peanuts
+pear
+pen: lower-left-ballpoint-pen
+penguin
+pepper: hot-pepper
+phone: mobile-phone
+pickaxe: pick
+pie
+pig
+pill
+pineapple
+pizza: slice-of-pizza
+poo: pile-of-poo
+poodle
+popcorn
+postbox
+potato
+present: wrapped-present
+pretzel
+prince
+princess
+printer
+purse
+rabbit
+raccoon
+radio
+ram
+rat
+rhinoceros
+ribbon
+rice: cooked-rice
+ring
+rocket
+rooster
+rose
+ruler: straight-ruler
+sailboat
+salt: salt-shaker
+sandwich
+santa: father-christmas
+satellite
+saxophone
+scarf
+school
+scissors: black-scissors
+scooter
+scorpion
+seat
+shark
+shoe: athletic-shoe
+shortcake
+shrimp
+shrine: shinto-shrine
+skateboard
+skull
+sledge: sled
+snail
+snake
+snowman
+soap: bar-of-soap
+socks
+spaghetti
+spider
+sponge
+squid
+star: glowing-star
+strawberry
+sun: sun-with-face
+sunglasses: dark-sunglasses
+sushi
+swan
+syringe
+taco
+tangerine
+taxi
+teddy: teddy-bear
+telephone: black-telephone
+telescope
+television
+tent
+thermometer
+tiger
+toilet
+tomato
+toolbox
+tooth
+tractor
+train
+tram: tram-car
+trophy
+truck: delivery-truck
+trumpet
+tshirt: t-shirt
+tulip
+turtle
+ufo: flying-saucer
+unicorn: unicorn-face
+violin
+volcano
+watch
+watermelon
+whale
+whiskey: tumbler-glass
+wine: wine-glass
+wrench
+yarn: ball-of-yarn
+zebra: zebra-face

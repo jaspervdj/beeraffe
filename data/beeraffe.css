@@ -1,0 +1,212 @@
+@font-face {
+    font-family: PixelFont;
+    src: url('./04.ttf') format('truetype');
+}
+
+html {
+    font-family: PixelFont;
+    font-size: 24px;
+    color: #fff;
+    background-color: #721b1b;
+    text-align: center;
+
+    image-rendering: optimizeSpeed;             /* Legal fallback */
+    image-rendering: -moz-crisp-edges;          /* Firefox        */
+    image-rendering: -o-crisp-edges;            /* Opera          */
+    image-rendering: -webkit-optimize-contrast; /* Safari         */
+    image-rendering: optimize-contrast;         /* CSS3 Proposed  */
+    image-rendering: crisp-edges;               /* CSS4 Proposed  */
+    image-rendering: pixelated;                 /* CSS4 Proposed  */
+    -ms-interpolation-mode: nearest-neighbor;   /* IE8+           */
+
+    height: 100%;
+}
+
+body {
+    margin: 0px;
+}
+
+.loading {
+    font-size: 60px;
+    left: 0px;
+    position: fixed;
+    right: 0px;
+    text-align: center;
+    top: 40%;
+}
+
+header {
+    font-size: 40px;
+    position: relative;
+    text-align: center;
+}
+
+header p {
+    margin: 0px auto 0px auto;
+    padding: 16px 10px 16px 10px;
+}
+
+header .left {
+    position: absolute;
+    left: 0px;
+}
+
+header .right {
+    position: absolute;
+    right: 0px;
+}
+
+header .button {
+    background-color: #681616;
+    border-left: #fbd300 4px solid;
+    border-right: #fbd300 4px solid;
+    cursor: pointer;
+}
+
+section {
+    margin: 0px 0px 0px 0px;
+    padding: 30px 10px 30px 10px;
+    background-color: #633168;
+    border-top: 4px solid gold;
+    box-shadow: inset 0px -8px rgba(0,0,0,0.4), inset 0px 8px rgba(0,0,0,0.4);
+    border-bottom: 4px solid gold;
+}
+
+@media (min-width: 1100px)  {
+    /* When the screen gets wide enough, take button out of the flow so the
+     * cards are nicely centered. */
+    .button {
+        position: absolute;
+        right: 0px;
+    }
+}
+
+.card {
+    display: inline-block;
+    margin: 10px;
+
+    border: 44px solid #f8f7ee;
+    border-image-source: url('./card-default.png');
+    border-image-slice: 44;
+    border-image-repeat: repeat;
+
+    color: #000;
+    cursor: pointer;
+
+    max-width: 690px;
+    word-wrap: break-word;
+}
+
+.card-contents {
+    margin: -12px -12px -12px -12px;
+
+    /* Not strictly necessary but prevents glitch on iPhone/safari */
+    background: #f8f7ee;
+}
+
+.card-contents p.handle {
+    padding: 0px 4px 0px 4px;
+    color: #777;
+}
+
+.card-contents p.handle.left {
+    float: left;
+    margin-right: 8px;
+}
+
+.card-contents p.handle.right {
+    float: right;
+    margin-right: 8px;
+}
+
+.card-contents img {
+    clear: both;
+    display: block;
+    margin: 4px auto 4px auto;
+}
+
+.card-contents p {
+    margin: 2px 0px 2px 0px;
+    text-align: center;
+}
+
+.deck.selected .card .card-contents p.handle       {color: #fff;}
+.deck.selected .card .card-contents p.handle.left  {background-color: #ff6c00;}
+.deck.selected .card .card-contents p.handle.right {background-color: #0b79da;}
+.deck.selected .card.selected .card-contents p.handle.left  {background-color: #0b79da;}
+.deck.selected .card.selected .card-contents p.handle.right {background-color: #ff6c00;}
+
+.card.selected {
+    border-image-source: url('./card-selected.png');
+}
+
+.card.selected .card-contents {
+    /* Not strictly necessary but prevents glitch on iPhone/safari */
+    background: #a6d080;
+}
+
+.notification {
+    background-color: rgba(0,0,0,.8);
+    color: #f4d2f0;
+    display: block;
+    font-size: 40px;
+    padding: 8px 0px 32px 0px;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+
+    transition: transform 1s ease-in;
+    top: 100%;
+    transform: translate(0%, 0%);
+}
+
+.notification.show {
+    transform: translate(0%, -100%);
+    transition: transform 2s cubic-bezier(0.000, 0.435, 0.000, 0.995);
+}
+
+.notification p {
+    /* Put paragraphs close together. */
+    margin: 4px;
+    word-wrap: break-word;
+}
+
+.tutorial {
+    max-width: 800px;
+    margin: 80px auto 20px auto;
+    text-align: left;
+    min-height: 138px;
+}
+
+.tutorial .title {
+    color: gold;
+    font-size: 18px;
+    margin-bottom: 4px;
+}
+
+.tutorial img {
+    width: 128px;
+    height: 128px;
+    margin: 20px 20px 20px 0px;
+    float: left;
+}
+
+.tutorial .content {
+    border-top: 2px dashed gold;
+    border-bottom: 2px dashed gold;
+}
+
+.clear {
+    clear: both;
+}
+
+footer {
+    font-size: 16px;
+    margin: 60px 40px 20px 40px;
+    padding: 20px;
+}
+
+footer a {
+    text-decoration: underline;
+    color: white;
+}
