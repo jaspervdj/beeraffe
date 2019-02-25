@@ -2,6 +2,9 @@ SOURCES=$(shell find src/Beeraffe -type f)
 
 EMOJIONE_DIR=$(HOME)/Stash/emojione-4.5/emojione-4.5-free
 
+PULP=$(shell npm bin)/pulp
+WEBPACK=$(shell npm bin)/webpack
+
 # Prevents make from removing the temporary files.
 .SECONDARY:
 
@@ -12,11 +15,11 @@ dist/index.html: static
 	cp build/index.html $@
 
 dist/Beeraffe.bundle.js: build/Beeraffe.js static
-	webpack --progress --config webpack.config.js
+	$(WEBPACK) --progress --config webpack.config.js
 
 build/%.js: src/%.purs $(SOURCES)
 	mkdir -p build
-	pulp --psc-package build -O --to $@ -m $*
+	$(PULP) --psc-package build -O --to $@ -m $*
 
 .PHONY: clean
 clean:
@@ -25,6 +28,10 @@ clean:
 .PHONY: deploy
 deploy:
 	bash scripts/deploy.sh
+
+.PHONY: setup
+setup:
+	npm install webpack-cli pulp xhr2 file-loader css-loader
 
 .PHONY: static
 static: build/sprites.png build/words.txt
