@@ -75,7 +75,7 @@ composeSelection
     -> Maybe {id :: DeckId, composition :: Card.Composition}
 composeSelection card game = do
     selection <- game.selection
-    comp <- Card.compose card selection.card
+    comp <- Card.compose selection.card card
     pure {id: selection.id, composition: comp}
 
 component
