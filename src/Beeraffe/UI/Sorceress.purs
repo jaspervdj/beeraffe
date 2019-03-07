@@ -156,7 +156,7 @@ tutorialDialog tutorial = case tutorial of
         [ "Well, MINION, that was only a mediocre job at best.  But I guess " <>
             "if we consider your lack of great THINGS to compose, " <>
             "and your general lack of intelligence, you didn't do too bad."
-        , "By composing THINGS your increase your WEALTH, so you " <>
+        , "By composing THINGS you increase your WEALTH, so you " <>
             "can buy new THINGS in THE SHOP."
         , "This will allow you to create and compose more impressive THINGS."
         ]
@@ -227,7 +227,7 @@ genericDialog (Compose comp) = liftEffect $ pick
         "when he accidentally composed his GRANDMA with a PIZZA he was eating."
       ]
     , [ "I once composed a MINION like you with another MINION.  The result " <>
-        "was, unsurprisingly, very dissapointing."
+        "was, unsurprisingly, very disappointing."
       ]
     , [ "Oh, gross, gross!  Let me take a picture to post on my WITCHSTAGRAM."
       ]
