@@ -237,5 +237,5 @@ genericDialog (Compose comp) = liftEffect $ pick
     , [ "You're finally making some progress, MINION.  You might master " <>
         "PURPLE MAGIC yet."
       ]
-    , [ "That's a big " <> an comp.name <> "." ]
+    , [ "That's a big " <> comp.name <> "." ]
     ]
