@@ -220,7 +220,7 @@ genericDialog (Compose comp) = liftEffect $ pick
       ]
     , [ "Not bad, MINION." ]
     , [ "That looks... mildly interesting." ]
-    , [ "What are you trying to do here?  You realize that their is no " <>
+    , [ "What are you trying to do here?  You realize that there is no " <>
         "goal to BEERAFFE, right?"
       ]
     , [ "Composing THINGS was invented by the ANCIENT PURPLE ELDER DRAGON " <>
