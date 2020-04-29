@@ -146,7 +146,6 @@ component initialGameState = H.parentComponent
         , HH.slot' CP.cp3 unit Notification.component unit absurd
         , HH.footer []
             [ HH.text "BEERAFFE"
-            , HH.sup [] [HH.text "beta"]
             , HH.text " by "
             , HH.a
                 [HP.href "https://twitter.com/jaspervdj"]
